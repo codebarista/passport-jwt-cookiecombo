@@ -1,7 +1,7 @@
 {
   "name": "passport-jwt-cookiecombo",
   "version": "1.0.0",
-  "description": "JsonWebToken cookie combo authentication strategy for Passport and Node.js.",
+  "description": "JSON Web Token (JWT) cookie combo authentication strategy for Passport and Node.js.",
   "main": "./lib",
   "scripts": {
     "test": "make test"
