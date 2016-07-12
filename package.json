@@ -4,7 +4,10 @@
   "description": "JSON Web Token (JWT) cookie combo authentication strategy for Passport and Node.js.",
   "main": "./lib",
   "scripts": {
-    "test": "make test"
+    "test": "mocha test"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
   },
   "repository": {
     "type": "git",
@@ -24,13 +27,15 @@
     "email": "ralf@langebrake.com",
     "url": "http://langebrake.com"
   },
-  "maintainers": [
-    {
-      "name": "codebarista",
-      "email": "ralf@langebrake.com"
-    }
-  ],
+  "maintainers": [{
+    "name": "codebarista",
+    "email": "ralf@langebrake.com"
+  }],
   "license": "ISC",
+  "licenses": [{
+    "type": "ISC",
+    "url": "http://www.opensource.org/licenses/ISC"
+  }],
   "bugs": {
     "url": "https://github.com/codebarista/passport-jwt-cookiecombo/issues"
   },
@@ -38,5 +43,9 @@
   "dependencies": {
     "jsonwebtoken": "^7.0.1",
     "passport-strategy": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-passport-strategy": "^1.0.0"
   }
 }
