@@ -242,6 +242,8 @@ HMACSHA256 (
   secret
 )
 ```
+## Tonic Notebook
+Try it out on tonic.dev [tonic + npm: passport-jwt-cookiecombo](https://tonicdev.com/codebarista/passport-jwt-cookiecombo)
 
 ## License
 
