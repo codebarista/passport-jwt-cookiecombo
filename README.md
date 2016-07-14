@@ -247,4 +247,4 @@ Try it out on tonic.dev [tonic + npm: passport-jwt-cookiecombo](https://tonicdev
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://git.io/vKR49)
